@@ -240,7 +240,7 @@ const Profile = () => {
         !newProduct.description ||
         !newProduct.category ||
         !newProduct.price ||
-        !newProduct.imageURL
+        !newProduct.image
       ) {
         return toast.info("Please fill all the details!");
       }
